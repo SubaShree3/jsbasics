@@ -199,6 +199,9 @@
 // console.log(company); // Walmart
 
 
+
+
+
 // 20-7-26 Task2
 
 // Task 1 - Employee Profile
@@ -422,9 +425,3 @@ console.log("Department : " + employee.department); // Department : Frontend
 console.log("Salary : " + employee.salary); // Salary : 28000
 console.log("Last Skill : " + employee.skills[employee.skills.length - 1]); // Last Skill : React
 console.log("Permanent Status : " + employee.permanent); // Permanent Status : true
-
-
-
-
-
-
