@@ -433,7 +433,7 @@
 
 // 23-7-26 Task 3
 
-// // Task 1 - : Employee Login System
+// Task 1 - : Employee Login System
 
 let username = prompt("Enter your username:");
 let password = prompt("Enter your password:");
@@ -479,13 +479,13 @@ let mark = Number(prompt("Enter your mark:"));
 
 if (mark >= 90) {
     console.log("Grade A"); // Grade A
-} 
+}
 else if (mark >= 80) {
     console.log("Grade B"); // Grade B
-} 
+}
 else if (mark >= 70) {
     console.log("Grade C"); // Grade C
-} 
+}
 else {
     console.log("Fail");
 }
@@ -547,10 +547,10 @@ let c = Number(prompt("Enter third number:"));
 
 if (a >= b && a >= c) {
     console.log("Largest Number: " + a); // Largest Number: 20
-} 
+}
 else if (b >= a && b >= c) {
     console.log("Largest Number: " + b); // Largest Number: 45
-} 
+}
 else {
     console.log("Largest Number: " + c); // Largest Number: 50
 }
@@ -561,7 +561,7 @@ let pin = prompt("Enter your 4-digit PIN:");
 
 if (pin.length === 4 && pin === "1234") {
     console.log("Login Success"); // Login Success
-} 
+}
 else {
     console.log("Invalid PIN");
 }
@@ -572,7 +572,7 @@ let stock = Number(prompt("Enter product stock:"));
 
 if (stock === 0) {
     console.log("Out of Stock"); // Out of Stock
-} 
+}
 else {
     console.log("Available"); // Available
 }
@@ -584,10 +584,10 @@ let bonus;
 
 if (salary > 50000) {
     bonus = 10000;
-} 
+}
 else if (salary > 30000) {
     bonus = 5000;
-} 
+}
 else {
     bonus = 2000;
 }
@@ -687,7 +687,7 @@ let finalAmount;
 if (total > 1000) {
     finalAmount = total - (total * 10 / 100);
     console.log("10% Discount Applied"); //10% Discount Applied
-} 
+}
 else {
     finalAmount = total;
     console.log("No Discount");
@@ -722,10 +722,10 @@ for (let key in employee) {
     console.log(employee[key]);
 }
 
-Output:
-Subashree
-Developer 
-50000
+// Output:
+// Subashree
+// Developer 
+// 50000
 
 // Task 19 - Type Casting
 
@@ -760,7 +760,7 @@ switch (choice) {
         break;
 
     default:
-        console.log("Invalid Choice"); 
+        console.log("Invalid Choice");
 }
 
 
@@ -780,7 +780,7 @@ do {
         "6. Exit"
     ));
 
-    switch(choice) {
+    switch (choice) {
 
         case 1:
             let emp = {
@@ -795,16 +795,16 @@ do {
             break;
 
         case 2:
-            for(let employee of employees) {
+            for (let employee of employees) {
                 console.log(`${employee.name} ${employee.role} ${employee.salary}`);
             }
             break;
 
         case 3:
-            for(let employee of employees) {
-                if(employee.salary > 50000)
+            for (let employee of employees) {
+                if (employee.salary > 50000)
                     console.log("Bonus: 10000");
-                else if(employee.salary > 30000)
+                else if (employee.salary > 30000)
                     console.log("Bonus: 5000");
                 else
                     console.log("Bonus: 2000");
@@ -812,8 +812,8 @@ do {
             break;
 
         case 4:
-            for(let employee of employees) {
-                if(employee.attendance == "Present")
+            for (let employee of employees) {
+                if (employee.attendance == "Present")
                     console.log("Working");
                 else
                     console.log("Leave");
@@ -821,7 +821,7 @@ do {
             break;
 
         case 5:
-            for(let employee of employees) {
+            for (let employee of employees) {
                 console.log("Salary: " + employee.salary);
             }
             break;
@@ -834,7 +834,7 @@ do {
             console.log("Invalid Choice");
     }
 
-} while(choice != 6);
+} while (choice != 6);
 
 
 
