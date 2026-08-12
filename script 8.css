@@ -1,0 +1,46 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 180px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.buy-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 89, 0);
+    color: white;
+    cursor: pointer;
+}
+
